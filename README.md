@@ -2,6 +2,8 @@
 Grabs first ip of a line (for log analysis)
 It scans through a txt file and finds each unique ip adress and counts duplicates.
 
+Second box is to remove the first characters of the log for each line. It MUST find the ip adress as the FIRST THING. So count the character count (including spaces) and input it to remove stuff like dates and other stuff. 
+
 For example: 
 
 213.2.2.2 //3/9/21/ ---> 112.4.2.1 Get package
